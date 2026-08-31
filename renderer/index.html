@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>treewriter</title>
+  <style>
+    body { font-family: Georgia, serif; margin: 1.5rem; background: #1b1d16; color: #e8e4d4; }
+    a { color: #c4e08a; }
+    .cave-shell { margin: 1rem 0; padding: 0.8rem; border: 1px solid #445; background: #22241c; }
+    .cave-out { white-space: pre-wrap; font-size: 0.85rem; max-height: 16rem; overflow: auto; }
+    button { background: #3d5a1f; color: #fff; border: 0; padding: 0.4rem 0.8rem; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>treewriter</h1>
+  <p>System Drawer for Minecraftuuuum. Spring UCC boots from <code>../minecraftuuuum</code>. Tenant <code>minecraftuuuum</code>.</p>
+  <ul>
+    <li><a href="http://127.0.0.1:5050/library">Servers</a></li>
+    <li><a href="http://127.0.0.1:5050/lemma-library">Lemmas</a></li>
+    <li><a href="http://127.0.0.1:5050/lemma-implementation">Implement</a></li>
+    <li><a href="http://127.0.0.1:5050/block-recipes">Blocks / recipes</a></li>
+    <li><a href="http://127.0.0.1:5050/video-generation">Video animation</a></li>
+    <li><a href="http://127.0.0.1:5050/pixellight">PixelLight</a></li>
+    <li><a href="http://127.0.0.1:5050/cave">Cave</a></li>
+  </ul>
+  <div id="cave-shell"></div>
+  <script>window.MINECRAFTUUUUM_API = "http://127.0.0.1:5050";</script>
+  <script src="http://127.0.0.1:5050/shared/cave-shell.js"></script>
+</body>
+</html>
